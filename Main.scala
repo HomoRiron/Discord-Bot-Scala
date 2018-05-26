@@ -6,7 +6,7 @@ import sx.blah.discord.handle.impl.events.guild.channel.message.MessageReceivedE
 import sx.blah.discord.api.IDiscordClient
 
 
-object scala {
+object Main {
   def main(args : Array[String]): Unit ={
     val Botmain = new BotMain
     Botmain.Run()
