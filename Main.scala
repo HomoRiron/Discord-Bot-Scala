@@ -16,7 +16,7 @@ object Main {
 class BotMain{
   def Run(): Unit ={
     val builder = new ClientBuilder
-    val client = builder.withToken("NDQ4MDk1NzgwNDU3MjgzNTk0.Dep0IA.zAM5dSFx_R7Z_z1HjufSe2usGwY").build()
+    val client = builder.withToken("Your Token Here").build()
     client.getDispatcher().registerListener(new EventHandle)
 
     client.login()
